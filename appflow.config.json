@@ -1,7 +1,7 @@
 {
   "apps": [
     {
-      "appId": "",
+      "appId": "f402cf05",
       "root": "packages/aaa",
       "dependencyInstallCommand": "cd ../.. && yarn"
     }
