@@ -5,7 +5,6 @@
 
 <script lang="ts">
 import { defineComponent, onMounted } from 'vue';
-import { hello } from '@baba/bbb';
 import { Capacitor } from '@capacitor/core';
 import { Deploy } from 'cordova-plugin-ionic';
 import HelloWorld from './components/HelloWorld.vue';
@@ -17,8 +16,6 @@ export default defineComponent({
   },
   setup() {
     onMounted(async () => {
-      hello();
-
       if (Capacitor.isNativePlatform()) {
         const update = await Deploy.checkForUpdate();
 
