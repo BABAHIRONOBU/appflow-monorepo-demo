@@ -1,0 +1,16 @@
+{
+  "name": "@baba/appflow-monorepo-demo",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ]
+  },
+  "scripts": {
+    "aaa": "yarn workspace @baba/aaa",
+    "bbb": "yarn workspace @baba/bbb"
+  }
+}
