@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "tsc"
+    "build": "pwd && tsc"
   },
   "dependencies": {
     "@baba/bbb": "1.0.0"
