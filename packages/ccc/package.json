@@ -4,7 +4,7 @@
   "main": "lib/index.js",
   "license": "MIT",
   "scripts": {
-    "build": "pwd && ls -al && cd .. && pwd && ls -al && cd .. && pwd && ls -al && cd packages/ccc && tsc"
+    "build": "cd ../../node_modules && pwd && ls -al && cd ../packages/ccc && tsc"
   },
   "dependencies": {
     "@baba/bbb": "1.0.0"
