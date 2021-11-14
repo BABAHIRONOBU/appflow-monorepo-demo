@@ -4,7 +4,7 @@
       "appId": "f402cf05",
       "root": "packages/ccc",
       "dependencyInstallCommand": "cd ../.. && yarn",
-      "webBuildCommand": "cd ../.. && yarn ccc build"
+      "webBuildCommand": "cd ../.. && yarn bbb build && yarn ccc build"
     }
   ]
 }
