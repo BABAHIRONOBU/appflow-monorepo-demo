@@ -11,6 +11,7 @@
   },
   "scripts": {
     "aaa": "yarn workspace @baba/aaa",
-    "bbb": "yarn workspace @baba/bbb"
+    "bbb": "yarn workspace @baba/bbb",
+    "ccc": "yarn workspace @baba/ccc"
   }
 }
