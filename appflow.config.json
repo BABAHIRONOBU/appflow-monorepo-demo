@@ -2,9 +2,9 @@
   "apps": [
     {
       "appId": "f402cf05",
-      "root": "packages/ccc",
+      "root": "packages/aaa",
       "dependencyInstallCommand": "cd ../.. && yarn",
-      "webBuildCommand": "cd ../.. && yarn bbb build && yarn ccc build"
+      "webBuildCommand": "cd ../.. && yarn bbb build && yarn aaa build"
     }
   ]
 }
